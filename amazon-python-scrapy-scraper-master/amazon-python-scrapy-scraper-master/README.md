@@ -1,7 +1,7 @@
 # amazon-python-scrapy-scraper
 Python Scrapy spiders that scrape product data and reviews from [Amazon.com](https://www.amazon.com/). 
 
-This Scrapy project contains :
+file has :
 
 | Spider  |      Description      |
 |----------|-------------|
@@ -35,8 +35,7 @@ DOWNLOADER_MIDDLEWARES = {
 ## ScrapeOps Monitoring
 
 
-To use the ScrapeOps Proxy you need to first install the monitoring SDK:
-
+Use scrapeops for api key (free)
 ```
 
 pip install scrapeops-scrapy
@@ -44,7 +43,7 @@ pip install scrapeops-scrapy
 ```
 
 
-Then activate the ScrapeOps Proxy by adding your API key to the `SCRAPEOPS_API_KEY` in the ``settings.py`` file.
+add `SCRAPEOPS_API_KEY` in the ``settings.py`` file.
 
 ```python
 
