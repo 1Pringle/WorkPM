@@ -68,7 +68,7 @@ DOWNLOADER_MIDDLEWARES = {
 ```
 
 
-## Running The Scrapers
+## Running The Scraper (Only one is functional as of now)
 
 ```
 
@@ -88,11 +88,11 @@ def start_requests(self):
 
 ```
 
-run command:
+run command: (use venv in master)
 
 ```
 
-scrapy crawl amazon_search_product
+scrapy crawl amazon_review
 
 ```
 
